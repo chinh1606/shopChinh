@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab:wght@500&family=Roboto:wght@500;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: scroll;
+    scroll-padding: 7rem;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.footer .box-containers {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer .box-containers .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.footer .box-containers .box a {
+    display: block;
+    color: black;
+    padding: 1rem; 
+    font-size: 1.5rem;
+}
+
+.footer .box-containers .box a i {
+    padding-right: 0.5rem;
+    color: green;
+}
+
+.footer .box-containers .box a:hover i {
+    padding-right: 2rem;
+}
+
+.footer .credit {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    border-top: 1px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+}
+
+.header .navbar {
+    width: 35rem;
+    background: white;
+}
+
+.header .navbar a {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: black;
+}
+
+.header .navbar a:hover {
+    color: red;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: pink;
+}
+
+.header .header-actions {
+    font-size: 1.8rem;
+    color:black;
+}
